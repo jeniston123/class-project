@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+nav a{
+  text-decoration:none;
+  color: white;
+
+
+}
+nav{
+  background-color:burlywood;
+  padding-bottom: 18px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.name{
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  z-index: 50;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+
+  
+}
+.buy{
+  position: absolute;
+  background-color:burlywood;
+  color: white;
+  border-radius: 8px;
+  top: 50%;
+  left: 45%;
+  z-index: 50;
+  border:#282c34
+}
+.bcimg{
+  position: relative;
+
+}
+.lgimg{
+  position:relative;
+  
+}
+.lgform{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  z-index: 50;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.sgimg{
+  position:relative;
+  
+
+
+}
+.sgform{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  z-index: 50;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+
+}
+.prdetail{
+  background-color:burlywood;
+  color: white;
+  border-radius: 8px;
+
+}
+ .abtimg{
+  position: relative;
+
+
+}
+.abtcontent{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.abtcontent2{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 200px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.abtcontent3{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 300px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+
+.conimg{
+  position: relative;
+
+}
+.concontent{
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 80px;
+  
+  
+}
